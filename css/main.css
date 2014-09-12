@@ -8,6 +8,8 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    
+background-color: grey;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -29,16 +31,38 @@ img {
   display: block;
   width: 100%;
 }
-    
-figcaption {
-    font-family: georgia;
-    font-size: .85rem;
-    position: relative;
-    float: left
+
+.dino {
+    display: block;
+    width: 100%;
 }
 
-h2 {
-    color: lightgray;
-    font-size: 1rem;
+.graphic {
+    margin: 0;
+    position: relative;
 }
+
+.graphic-caption {
+    position: absolute;
+    bottom: 0;
+}
+
+.info {
+    float: left;
+    padding: 1em;
+    width: 33.3333%;
+    border-right: 1px solid #ccc;
+}
+    
+info: last-child {
+    border: 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    
     
