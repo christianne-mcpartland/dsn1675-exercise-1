@@ -29,17 +29,16 @@ img {
   display: block;
   width: 100%;
 }
-
-.header {
-    background-image: url(../images/stegosaurus.jpg);
-    overflow: hidden;
-    background-position: center center;
-    background-size: 40rem;
-}
     
+figcaption {
+    font-family: georgia;
+    font-size: .85rem;
+    position: relative;
+    float: left
+}
 
-.period {
-    margin: 1rem;
-    float: left;
+h2 {
+    color: lightgray;
+    font-size: 1rem;
 }
     
